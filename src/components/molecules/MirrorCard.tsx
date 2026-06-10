@@ -34,14 +34,14 @@ function MirrorIcon({ type }: { type: "concave" | "convex" }) {
     return (
       <svg width="58" height="58" viewBox="0 0 48 48" fill="none">
         <path
-          d="M30 8C22 15 22 33 30 40"
+          d="M22 8C31 15 31 33 22 40"
           stroke="currentColor"
           strokeWidth="3.2"
           strokeLinecap="round"
           className="text-cyan-200"
         />
         <path
-          d="M8 16H23M8 24H21M8 32H23"
+          d="M8 16H23M8 24H25M8 32H23"
           stroke="currentColor"
           strokeWidth="2.2"
           strokeLinecap="round"
@@ -54,14 +54,14 @@ function MirrorIcon({ type }: { type: "concave" | "convex" }) {
   return (
     <svg width="58" height="58" viewBox="0 0 48 48" fill="none">
       <path
-        d="M22 8C31 15 31 33 22 40"
+        d="M30 8C22 15 22 33 30 40"
         stroke="currentColor"
         strokeWidth="3.2"
         strokeLinecap="round"
         className="text-cyan-200"
       />
       <path
-        d="M8 16H23M8 24H25M8 32H23"
+        d="M8 16H23M8 24H21M8 32H23"
         stroke="currentColor"
         strokeWidth="2.2"
         strokeLinecap="round"
